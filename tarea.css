@@ -1,0 +1,55 @@
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#taskContainer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#taskContainer h1{
+    margin-bottom: 50px;
+}
+#taskContainer #taskTable{
+    margin-top: 15px;
+    min-width: 500px;
+}
+#taskContainer #taskTable tr{
+    height: 25px;
+}
+#taskContainer #taskTable .tarea{
+    width: 75%;
+}
+#taskContainer #taskTable .accion{
+    width: 25%;
+}
+#taskContainer #taskTable .accion button{
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+.inputText{
+    border: 0px;
+    width: 90%;
+}
+.inputText:focus{
+    background: transparent !important;
+    border-color: yellow !important;
+    box-shadow: unset !important;
+    outline: unset !important;
+}
+.open{
+    border: 1px solid yellow;
+}
+
+.tarea span{
+    padding: 3px 10px;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+}
+

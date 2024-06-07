@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tarea.css">
+    <title>Lista de tareas</title>
+</head>
+<body>
+    <div id="taskContainer">
+        <h1>Lista de tareas</h1>
+        <div class="inputContainer">
+            <input type="text" id="newTaskInput" placeholder="Insertar una nueva tarea">
+            <button id="addTaskBtn">Agregar tarea</button>
+        </div>
+        <table id="taskTable" border="1">
+            <thead>
+                <tr>
+                    <th class="tarea">Tarea</th>
+                    <th class="accion">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script src="./tarea.js"></script>
+</body>
+</html>
